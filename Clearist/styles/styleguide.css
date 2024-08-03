@@ -1,0 +1,25 @@
+:root {
+    --system-colors-colors-blue: rgba(0, 122, 255, 1);
+    --system-colors-fills-secondary: rgba(120, 120, 128, 0.16);
+    --system-colors-backgrounds-primary: rgba(255, 255, 255, 1);
+  }
+
+  
+  [data-system-colors-mode="light"] {
+    --system-colors-colors-blue: rgba(0, 122, 255, 1);
+    --system-colors-fills-secondary: rgba(120, 120, 128, 0.16);
+    --system-colors-backgrounds-primary: rgba(255, 255, 255, 1);
+  }
+  
+  [data-system-colors-mode="dark"] {
+    --system-colors-colors-blue: rgba(10, 132, 255, 1);
+    --system-colors-fills-secondary: rgba(120, 120, 128, 0.32);
+    --system-colors-backgrounds-primary: rgba(0, 0, 0, 1);
+  }
+  
+  [data-system-colors-mode="dark-elevated"] {
+    --system-colors-colors-blue: rgba(10, 132, 255, 1);
+    --system-colors-fills-secondary: rgba(120, 120, 128, 0.32);
+    --system-colors-backgrounds-primary: rgba(28, 28, 30, 1);
+  }
+  
