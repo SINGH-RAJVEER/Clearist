@@ -68,7 +68,7 @@
   }
   
   .desktop .filled {
-    width:50%;
+    width:33%;
     height: 4px;
     background-color: var(--system-colors-colors-blue);
     border-radius: 100px;
@@ -147,7 +147,6 @@
     border: none;
     padding: 10px 18px;
     margin-left: 12px;
-    font-size: 20px;
-  ;
+    font-size: 20px; 
   }
  
