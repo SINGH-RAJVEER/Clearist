@@ -1,24 +1,29 @@
 \.desktop {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  position: relative;
   }
-  
+
   .desktop .div {
     background-color: #ffffff;
-    width: 1440px;
-    height: 1080px;
+    width: 100%;
+    max-width: 1920px;
+    height: 1080px; 
     position: relative;
   }
-  
+
   .desktop .overlap {
     position: absolute;
     width: 716px;
     height: 837px;
-    top: 93px;
-    left: 370px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   
   .desktop .group {
