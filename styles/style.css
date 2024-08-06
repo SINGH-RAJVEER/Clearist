@@ -111,17 +111,17 @@
   }
   
   .desktop .text-wrapper-2 {
-    position: absolute;
-    width: 699px;
-    height: 93px;
-    top: -1px;
-    left: 378px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 550px;
+    height: 120px;
     font-family: "Inter-ExtraLight", Helvetica;
-    font-weight: 200;
+    font-weight: 100;
     color: #000000;
     font-size: 64px;
     text-align: center;
-    letter-spacing: 0;
+    letter-spacing: 2;
     line-height: normal;
   }
   
