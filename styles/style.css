@@ -1,5 +1,5 @@
 \.desktop {
-    background-color: #ffffff;
+    background-color: #adb5bd;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -11,6 +11,8 @@
     width: 1440px;
     height: 1080px;
     position: relative;
+
+    background-color: #adb5bd;
   }
   
   .desktop .overlap {
@@ -27,6 +29,7 @@
     height: 837px;
     top: 0;
     left: 0;
+    
   }
   
   .desktop .overlap-group {
