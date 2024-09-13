@@ -50,13 +50,17 @@ function newElement() {
   }
 } 
 
-const list_items=document.querySelectorAll("myUL");
-const count = list_items.length;
+const tasks = document.querySelectorAll("addBtn");
+const count = tasks.length;
 console.log(count);
 
-const task_complete = document.getElementsByClassName("checked");
-const val_task_complete = task_complete.length;
-const bar_fill=(val_task_complete/list_items)*100;
-const per_val_task_completed = bar_fill;
+// const list_items=document.querySelectorAll("myUL");
+// const count = list_items.length;
+// console.log(count);
 
-const widthBar=document.getElementsByClassName("filled").style.width;
+// const task_complete = document.getElementsByClassName("checked");
+// const val_task_complete = task_complete.length;
+// const bar_fill=(val_task_complete/list_items)*100;
+// const per_val_task_completed = bar_fill;
+
+// const widthBar=document.getElementsByClassName("filled").style.width;

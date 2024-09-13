@@ -131,7 +131,7 @@
     left: 1363px;
   }
   ul li.checked {
-    color: #ffffff;
+    color: #000000;
     text-decoration: line-through;
   }
   .close {
@@ -140,24 +140,21 @@
     padding: 12px 16px 12px 16px;
   }
   #myUL{
-    font-size: 25px;
+    font-size: 160%;
     list-style-type: none;
     padding-left: 10%;
     font-family: "Inter-Medium", Helvetica;
   }
   #myInput{
-    background-color: #ffffff;
+    background-color: #121212;
     border: none;
-    padding: 10px 18px;
-    margin-left: 12px;
-    font-size: 20px;
+    padding: 8% 8%;
+    margin-left: 10%;
+    font-size: 100%;
+    color: #ffffff;
   }
   .tasks{
-    border: #000000;
-    border-radius: 25%;
-    
-    
-    
-    
+    color: #ffffff;
+    padding-top: 20%;
   }
  

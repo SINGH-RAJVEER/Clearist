@@ -11,21 +11,30 @@
         <div class="overlap">
           <div class="group">
             <div class="overlap-group">
-              <div class="rectangle"></div>
+              <div class="rectangle" onclick="newElement()">
+                <div class="tasks">
+                  <ul id="myUL"></ul>
+                </div>
+              </div>
               <div class="progress-bar" >
                 <div class="track"><div class="filled"></div></div>
               </div>
             </div>
           </div>
           <div class="group-2">
+
             <div class="text-wrapper">
               <input type="text" id="myInput" placeholder="Add a new task" size="53px">
             </div>
-            <div class="tasks">
+
               <span onclick="newElement()" class="addBtn">
-                <img src="public/add.svg" height="42px" width="42px"></span>
-              <ul id="myUL"></ul>
-            </div>
+                <img src="public/add.svg" height="42px" width="42px">
+              </span>
+
+              <div class="tasks">
+                <ul id="myUL"></ul>
+              </div>
+
           </div>
         </div>
         <div class="text-wrapper-2">Clearist</div>
