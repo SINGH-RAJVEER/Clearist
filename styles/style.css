@@ -4,14 +4,13 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    height: 100%;
   }
   
-  .desktop .div {
-    background-color: #ffffff;
-    width: 1440px;
-    height: 1080px;
+  .desktop {
+    width: 100%;
+    height: 100%;
     position: relative;
-
     background-color: #adb5bd;
   }
   
@@ -89,7 +88,7 @@
   
   .desktop .text-wrapper {
     position: absolute;
-    width: 142px;
+    width: 147px;
     top: 9px;
     left: 35px;
     font-family: "Inter-Medium", Helvetica;
@@ -132,7 +131,6 @@
     left: 1363px;
   }
   ul li.checked {
-    background: #000000;
     color: #ffffff;
     text-decoration: line-through;
   }
@@ -153,6 +151,13 @@
     padding: 10px 18px;
     margin-left: 12px;
     font-size: 20px;
-  ;
+  }
+  .tasks{
+    border: #000000;
+    border-radius: 25%;
+    
+    
+    
+    
   }
  
