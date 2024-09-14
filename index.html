@@ -1,46 +1,55 @@
 <!DOCTYPE html>
+
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="styles/styleguide.css" />
-    <link rel="stylesheet" href="styles/style.css" />
-  </head>
-  <body>
-    <div class="desktop">
-        <div class="overlap">
-          <div class="group">
-            <div class="overlap-group">
-              <div class="rectangle" onclick="newElement()">
-                <div class="tasks">
-                  <ul id="myUL"></ul>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styles/styleguide.css" />
+        <link rel="stylesheet" href="styles/style.css" />
+    </head>
+    <body>
+        <div class="desktop">
+            <div class="overlap">
+
+                <div class="group">
+                    <div class="overlap-group">
+
+                        <div class="rectangle" onclick="newElement()">
+                            <div class="tasks">
+                                <ul id="myUL"></ul>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar" >
+                            <div class="track">
+                                <div class="filled"></div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-              </div>
-              <div class="progress-bar" >
-                <div class="track"><div class="filled"></div></div>
-              </div>
+
+                <div class="group-2">
+
+                    <div class="text-wrapper">
+                        <input type="text" id="myInput" placeholder="Add a new task" size="53px">
+                    </div>
+
+                    <span onclick="newElement()" class="addBtn">
+                        <img src="public/add.svg" height="42px" width="42px">
+                    </span>
+
+                    <div class="tasks">
+                        <ul id="myUL"></ul>
+                    </div>
+
+                </div>
+
             </div>
-          </div>
-          <div class="group-2">
-
-            <div class="text-wrapper">
-              <input type="text" id="myInput" placeholder="Add a new task" size="53px">
-            </div>
-
-              <span onclick="newElement()" class="addBtn">
-                <img src="public/add.svg" height="42px" width="42px">
-              </span>
-
-              <div class="tasks">
-                <ul id="myUL"></ul>
-              </div>
-
-          </div>
+            <div class="text-wrapper-2">Clearist</div>
+            <img class="sidebar" src="public/Sidebar.svg"/>
         </div>
-        <div class="text-wrapper-2">Clearist</div>
-       <img class="sidebar" src="public/Sidebar.svg"/>
-    </div>
-    <script src="index.js" charset="utf-8"></script>
-    <script src="data_stor.js" charset="utf-8"></script>
-  </body>
+        <script src="index.js" charset="utf-8"></script>
+        <script src="data_stor.js" charset="utf-8"></script>
+    </body>
 </html>

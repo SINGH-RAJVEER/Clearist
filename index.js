@@ -8,6 +8,8 @@ for (i = 0; i < myNodelist.length; i++) {
   myNodelist[i].appendChild(span);
 }
 
+
+
 var close = document.getElementsByClassName("close");
 var i;
 for (i = 0; i < close.length; i++) {
@@ -17,12 +19,16 @@ for (i = 0; i < close.length; i++) {
   }
 }
 
+
+
 var list = document.querySelector('ul');
 list.addEventListener('click', function(ev) {
   if (ev.target.tagName === 'LI') {
     ev.target.classList.toggle('checked');
   }
 }, false);
+
+
 
 function newElement() {
   var li = document.createElement("li");
@@ -50,17 +56,9 @@ function newElement() {
   }
 } 
 
+
+
 const tasks = document.querySelectorAll("addBtn");
 const count = tasks.length;
-console.log(count);
 
-// const list_items=document.querySelectorAll("myUL");
-// const count = list_items.length;
-// console.log(count);
-
-// const task_complete = document.getElementsByClassName("checked");
-// const val_task_complete = task_complete.length;
-// const bar_fill=(val_task_complete/list_items)*100;
-// const per_val_task_completed = bar_fill;
-
-// const widthBar=document.getElementsByClassName("filled").style.width;
+tasks.addEventListener("click", newElement());
