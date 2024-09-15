@@ -1,25 +1,22 @@
-\.desktop {
+.desktop {
     background-color: #adb5bd;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .desktop {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    background-color: #adb5bd;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
   }
   
   .desktop .overlap {
-    position: absolute;
-    width: 716px;
-    height: 837px;
+    position: relative;
+    width: 100%;
+    height: 100%;
     top: 93px;
-    left: 370px;
+    left: 500px;
+    display: flex;
+    justify-content: center;
   }
   
   .desktop .group {
@@ -28,7 +25,6 @@
     height: 837px;
     top: 0;
     left: 0;
-    
   }
   
   .desktop .overlap-group {
@@ -101,26 +97,29 @@
   }
   
   .desktop .add {
-    position: absolute;
+    position: relative;
     width: 35px;
     height: 34px;
     top: 0;
     left: 0;
   }
   
-  .desktop .text-wrapper-2 {
+  .desktop .title {
     position: absolute;
-    width: 699px;
+    width: 100%;
     height: 93px;
-    top: -1px;
-    left: 378px;
+    top: 0;
+    left: 0;
     font-family: "Inter-ExtraLight", Helvetica;
-    font-weight: 200;
+    font-weight: 20;
     color: #000000;
     font-size: 64px;
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .desktop .sidebar {
@@ -136,11 +135,11 @@
   }
   .close {
     position: relative;
-    font-size: 30px;
+    font-size: 20px;
     padding: 12px 16px 12px 16px;
   }
   #myUL{
-    font-size: 160%;
+    font-size: 130%;
     list-style-type: none;
     padding-left: 10%;
     font-family: "Inter-Medium", Helvetica;
@@ -154,11 +153,6 @@
     color: #ffffff;
   }
   .tasks{
-    color: #ffffff;
+    color: #adb5bd;
     padding-top: 20%;
-    /* border: 2px solid #d3d3d3;
-    border-radius: 20px;
-    padding: 10px;
-    margin-top: -10px; */
   }
- 
