@@ -6,8 +6,6 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    margin: 0;
-    padding: 0;
 }
 
 .group {
@@ -50,10 +48,10 @@ body {
 
 .track {
     position: relative;
-    width: 95.66%; /* 684px / 715px */
-    height: 5.56%; /* 4px / 72px */
-    top: 47.22%; /* 34px / 72px */
-    left: 2.24%; /* 16px / 715px */
+    width: 95.66%; 
+    height: 5.56%;
+    top: 47.22%;
+    left: 2.24%; 
     background-color: var(--system-colors-fills-secondary);
 }
 
@@ -61,7 +59,7 @@ body {
     width: 50%;
     height: 100%;
     background-color: var(--system-colors-colors-blue);
-    border-radius: 6.25rem; /* 100px / 16px base font size */
+    border-radius: 6.25rem; 
 }
 
 .group-2 {
@@ -75,7 +73,7 @@ body {
     width: 100%;
     font-family: "Inter-Medium", Helvetica;
     font-weight: 500;
-    color: #000000;
+    color: #121212;
     font-size: 20px;
     letter-spacing: -0.43px;
     line-height: 22px;
@@ -94,13 +92,13 @@ body {
 .title {
     position: absolute;
     width: 100%;
-    height: 11.11%; /* 93px / 837px */
+    height: 11.11%;
     top: 0;
     left: 0;
     font-family: "Inter-ExtraLight", Helvetica;
     font-weight: 20;
     color: #000000;
-    font-size: 4rem; /* 64px / 16px base font size */
+    font-size: 4rem; 
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
@@ -116,8 +114,16 @@ ul li.checked {
 
 .close {
     position: relative;
-    font-size: 1.25rem; 
     padding: 1rem 1rem; 
+}
+
+.close:hover {
+    position: relative;
+    padding: 0.5rem 0.75rem; 
+    background-color: #121212;
+    border-radius: 100%;
+    transition: 0.2s;
+    color: #adb5bd;
 }
 
 #myUL{
@@ -139,7 +145,15 @@ ul li.checked {
 }
 
 li {
-  border: 1px solid #adb5bd;
-  border-radius: 1.25rem;
-  padding: 0.7rem;
+    border: 1px solid #adb5bd;
+    border-radius: 1.25rem;
+    padding: 0.7rem 0.7rem;
+    width: 300%;
+}
+
+li:hover {
+  padding: 0.7rem 0.7rem;
+  width: 300%;
+  color: #121212;
+  background-color: #adb5bd;
 }
