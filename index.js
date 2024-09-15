@@ -15,7 +15,7 @@ for (i = 0; i < close.length; i++) {
     close[i].onclick = function() {
         var div = this.parentElement;
         div.style.display = "none";
-        updateProgressBar(); // Update progress bar when a task is removed
+        updateProgressBar();
     }
 }
 
@@ -25,7 +25,7 @@ var list = document.querySelector('ul');
 list.addEventListener('click', function(ev) {
     if (ev.target.tagName === 'LI') {
         ev.target.classList.toggle('checked');
-        updateProgressBar(); // Update progress bar when a task is checked/unchecked
+        updateProgressBar(); 
     }
 }, false);
 
@@ -40,7 +40,7 @@ function newElement() {
         alert("You must write something!");
     } else {
         document.getElementById("myUL").appendChild(li);
-        updateProgressBar(); // Update progress bar when a new task is added
+        updateProgressBar(); 
     }
     document.getElementById("myInput").value = "";
 
@@ -54,10 +54,20 @@ function newElement() {
         close[i].onclick = function() {
             var div = this.parentElement;
             div.style.display = "none";
-            updateProgressBar(); // Update progress bar when a task is removed
+            updateProgressBar(); 
         }
     }
 }
+
+
+
+document.getElementById("myInput").addEventListener("keyup", function(event) {
+    if (event.key === "Enter") {
+        newElement();
+    }
+});
+
+
 
 function updateProgressBar() {
     var totalTasks = document.getElementsByTagName("LI").length;
@@ -67,6 +77,4 @@ function updateProgressBar() {
     var filledBar = document.querySelector('.filled');
     filledBar.style.width = progressPercentage + '%';
 }
-
-// Initial update of the progress bar
 updateProgressBar();
