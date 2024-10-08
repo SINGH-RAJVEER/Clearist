@@ -64,8 +64,10 @@ body {
 
 .group-2 {
     position: absolute;
-    width: 10%;
-    height: 10%;
+    width: 90%; /* Increased from 10% to 90% */
+    height: 80%; /* Increased from 10% to 80% */
+    top: 10%; /* Added to position it below the title */
+    left: 5%; /* Added to center it horizontally */
 }
 
 .text-wrapper {
@@ -108,8 +110,9 @@ body {
 }
 
 ul li.checked {
-    color: #ffffff;
+    color: #121212;
     text-decoration: line-through;
+    background-color: #adb5bd;
 }
 
 .close {
