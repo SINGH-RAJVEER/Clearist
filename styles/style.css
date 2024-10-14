@@ -64,10 +64,10 @@ body {
 
 .group-2 {
     position: absolute;
-    width: 90%; /* Increased from 10% to 90% */
-    height: 80%; /* Increased from 10% to 80% */
-    top: 10%; /* Added to position it below the title */
-    left: 5%; /* Added to center it horizontally */
+    width: 90%; 
+    height: 80%;
+    top: 10%; 
+    left: 5%;
 }
 
 .text-wrapper {
@@ -125,7 +125,7 @@ ul li.checked {
     padding: 0.5rem 0.75rem; 
     background-color: #121212;
     border-radius: 100%;
-    transition: 0.2s;
+    transition: 0.15s;
     color: #adb5bd;
 }
 
@@ -142,7 +142,6 @@ ul li.checked {
     border: 1px solid #adb5bd;
     border-radius: 1.25rem;
     padding: 8%;
-    margin-left: 10%;
     font-size: 100%;
     color: #adb5bd;
 }
@@ -151,12 +150,12 @@ li {
     border: 1px solid #adb5bd;
     border-radius: 1.25rem;
     padding: 0.7rem 0.7rem;
-    width: 300%;
+    width: 100%;
 }
 
 li:hover {
   padding: 0.7rem 0.7rem;
-  width: 300%;
+  width: 100%;
   color: #121212;
   background-color: #adb5bd;
 }
